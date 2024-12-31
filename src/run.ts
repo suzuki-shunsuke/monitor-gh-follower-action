@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as core from "@actions/core";
-import * as github from '@actions/github';
+import * as github from "@actions/github";
 import { Octokit } from "@octokit/core";
 import { paginateGraphQL } from "@octokit/plugin-paginate-graphql";
 
@@ -15,7 +15,7 @@ export type Inputs = {
   owner: string;
   repo: string;
   issueNumber: number;
-}
+};
 
 const followerToString = (follower: Follower): string => {
   return `<img width="32" alt="image" src="${follower.avatorUrl}"> [${follower.login}](https://github.com/${follower.login})`;
@@ -34,11 +34,18 @@ export const main = async (inputs: Inputs): Promise<any> => {
   if (inputs.repo === "") {
     throw new Error("repo is required");
   }
-  const prevFollowers = convArrayToMap(JSON.parse(fs.readFileSync("followers.json", "utf8")) as Follower[]);
+  const prevFollowers = convArrayToMap(
+    JSON.parse(fs.readFileSync("followers.json", "utf8")) as Follower[],
+  );
   // List followers by GraphQL API
-  const currentFollowers = convArrayToMap(await getFollowers(inputs.login, inputs.token));
+  const currentFollowers = convArrayToMap(
+    await getFollowers(inputs.login, inputs.token),
+  );
   // Output latest followers
-  fs.writeFileSync("latest-followers.json", JSON.stringify([...currentFollowers.values()]));
+  fs.writeFileSync(
+    "latest-followers.json",
+    JSON.stringify([...currentFollowers.values()]),
+  );
   // Compare
   const oldFollowers: Follower[] = [];
   const newFollowers: Follower[] = [];
@@ -56,10 +63,12 @@ export const main = async (inputs: Inputs): Promise<any> => {
     core.info("No followers are changed");
     return;
   }
-  core.info(JSON.stringify({
-    newFollowers: newFollowers,
-    oldFollowers: oldFollowers,
-  }));
+  core.info(
+    JSON.stringify({
+      newFollowers: newFollowers,
+      oldFollowers: oldFollowers,
+    }),
+  );
   let body = "";
   if (newFollowers.length > 0) {
     body += `## New followers (${newFollowers.length})\n\n`;
@@ -94,7 +103,10 @@ const convArrayToMap = (followers: Follower[]): Map<string, Follower> => {
   return map;
 };
 
-const getFollowers = async (login: string, token: string): Promise<Follower[]> => {
+const getFollowers = async (
+  login: string,
+  token: string,
+): Promise<Follower[]> => {
   const MyOctokit = Octokit.plugin(paginateGraphQL);
   const octokit = new MyOctokit({ auth: token });
   const pageIterator = octokit.graphql.paginate.iterator(
