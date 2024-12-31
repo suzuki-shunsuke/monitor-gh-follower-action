@@ -1,0 +1,239 @@
+{
+  "checksums": [
+    {
+      "id": "github_content/github.com/suzuki-shunsuke/rjsa/v0.1.0/rjsa",
+      "checksum": "6C015E625B5D65C4D96A239625F8024F1D9D472E4C9E2C591A7C8128199286EC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.5/ghcp_darwin_amd64.zip",
+      "checksum": "6728BD668888A64C71BF01D9AFBA373F38D353B79D181B1401A4E5E4B329289D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.5/ghcp_darwin_arm64.zip",
+      "checksum": "6533FA0396CA6F4B9D3A74C2F0A5C4C89575A0D79F90684BAF6CD8B1511C95AC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.5/ghcp_linux_amd64.zip",
+      "checksum": "3C808E566F0B663182AD5B5DD6E6B05DC8346610EA5613EA8C22AB19F47A4493",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.5/ghcp_linux_arm64.zip",
+      "checksum": "14068BF35B2ED187EE7D8DB854DF2E7913C2BBC981979D3F8AE533D058E35F16",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.5/ghcp_windows_amd64.zip",
+      "checksum": "1A90AD7927F720EB8996AE143DF5D7AA2DF70689B7B5B9074D6FD32C244D688E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_darwin_amd64.tar.gz",
+      "checksum": "E953C3C5580A317BA30871EE77F39A37E5BCB030EDF01C5E9A83EBDDCEC7CF8A",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_darwin_arm64.tar.gz",
+      "checksum": "FCAC22ADAF1CFE7854738859D0F4705D1CD75A23EDAEF5EE2E9ABA66CFFF2315",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_linux_amd64.tar.gz",
+      "checksum": "BFF970346470E5EF888E9F2C0BF7F8EE47283F5A45207D6E7A037DA1FB0EAE0D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_linux_arm64.tar.gz",
+      "checksum": "EDD7195CBB8BA56C29EDE413EEFA10C8026201D63326017CD315841B4063AA56",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_windows_amd64.zip",
+      "checksum": "25110D69D220BF55469A14C243F759305737DAC6672FB47B4AF4E43B000F55F5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Darwin_arm64.tar.gz",
+      "checksum": "A7FBF41913CE5B6F1872D10C136139B7A849190F4F1F0DC1ED4BF74C636F22A2",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Darwin_x86_64.tar.gz",
+      "checksum": "056DD0F43ECCB8651FB976B43AA91A1D34B2A0C3934F216997774A7CBC1F7EB1",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Linux_arm64.tar.gz",
+      "checksum": "BD0C4045B8F367F1CA6C0E7CFD80189CCD2A8CEAA22034ECBAD4AF0ACB3A3B82",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Linux_x86_64.tar.gz",
+      "checksum": "2C634DBC00BD4A86E4D4C47029D2AF9185FAB06643A9DF0AE10E7C4D644781B6",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Windows_arm64.tar.gz",
+      "checksum": "2DFD2C151AFF8B7D2DFDFC44FB47706667806AEA92F4F8238932BB89A0461D4A",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/reviewdog/reviewdog/v0.20.3/reviewdog_0.20.3_Windows_x86_64.tar.gz",
+      "checksum": "068726CA98BBEB5E47378AB0B630133741E17BA1FEB5654A24EC5E604446EDEF",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_darwin_amd64.tar.gz",
+      "checksum": "63A3BA90EE2325AFAD3FF2E64A4D80688C261E6C68BE8E6AB91214637BF936B8",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_darwin_arm64.tar.gz",
+      "checksum": "CBD193BB490F598D77E179261D7B76DFEBD049DDDEDE5803BA21CBF6A469AEEE",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_linux_amd64.tar.gz",
+      "checksum": "FC0A6886BBB9A23A39EEEC4B176193CADB54DDBE77CDBB19B637933919545395",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_linux_arm64.tar.gz",
+      "checksum": "EDE03682DC955381D057DDE95BB85CE9CA418122209A8A313B617D4ADEC56416",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_windows_amd64.zip",
+      "checksum": "CEF5EA561B9BE20CFF390301C4062C1D7B260AF2F9963C26B406E57AAF30E4D8",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.4/actionlint_1.7.4_windows_arm64.zip",
+      "checksum": "205A2F99BE1CAA70CF0558561FAE47F099B5EF85CA57B00ABCE18C840452EAF3",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_darwin_amd64.tar.gz",
+      "checksum": "94C2CCFC4330DBF8D587A1127E0CF6BABC618506CBA0D89BF0975620FAF26E60",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_darwin_arm64.tar.gz",
+      "checksum": "EAB029A0ABC4B33228853BF9B6CDEC1A42284326AD6F6B96BF1CAA6CDAFEA407",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_linux_amd64.tar.gz",
+      "checksum": "CF6B642829175BDC64DF16D04B7FAA953B684F4290557ADE4BEF9B661F3F4452",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_linux_arm64.tar.gz",
+      "checksum": "2FD795E2E91BD60A9B8DA4328850B655DE7D7E7BAF8826DDAD4BEAF97291AB25",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_windows_amd64.tar.gz",
+      "checksum": "AF287C68213B1C29CEDE06A0308003D6EE0A015FF89A455858DF5D3E4838BCCB",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/cmdx/v1.7.4/cmdx_windows_arm64.tar.gz",
+      "checksum": "40F31B6E5926B949148A30957D5DD8761F3579433161EB9AA2627AD1009DB46E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_darwin_amd64.tar.gz",
+      "checksum": "51C9C9F06DAF7AC5446A117CF759023400BA5042C2EC64127D9C697BE9DC17FA",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_darwin_arm64.tar.gz",
+      "checksum": "7CF5BC8CE5438ECC56AE9E1B17D41105546A9BEE49AB5A7BBCBA137A453031F6",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_linux_amd64.tar.gz",
+      "checksum": "4FF8BFF401262B63D96BA729328D2A87AE54B602020107CDD3C881920C3D4927",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_linux_arm64.tar.gz",
+      "checksum": "21994CCE9331AA30D5CA34ED62C1FE1660E23A74FB41DD0658DC5DFD24FF2C08",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_windows_amd64.zip",
+      "checksum": "F8235D039A9FEBF468C3CD85E79AC6EB4AD16BFA15220F51FF72A892953CE340",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.0/ghalint_1.2.0_windows_arm64.zip",
+      "checksum": "DDA59A25744A28F88853864B86FDBC11E67F3928DD8FB3FC5A758AE577F9E84F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_darwin_amd64.tar.gz",
+      "checksum": "018C3AEF88E8DDE8F5B53A50123334646338CE82E3A5929A12C1364397AF0CB4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_darwin_arm64.tar.gz",
+      "checksum": "967AF7E7CE6A06D97D39DDB19FDBB6CD19FD56CF48DAC7966BBB3F5453671550",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_linux_amd64.tar.gz",
+      "checksum": "3BAEA5062140D037DD10DCCDEEA4E61A723E40B0CBB6E83F4258B23697D41CCC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_linux_arm64.tar.gz",
+      "checksum": "FDE3F0D7BA308B193CD0B02274B469CB00BB722178810555A8329AC4F628D41C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_windows_amd64.zip",
+      "checksum": "C59FA33C48BAEC7ADA10E7FE93F8382C27B019BACC1A3EAB9F5E297EE4A8BE8D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.0/pinact_windows_arm64.zip",
+      "checksum": "DB50DD5D6805CB290AE56A4B9FF8CD7CA12D60378DEDCCF0B3DCDD93920163D1",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-darwin-arm64.tar.gz",
+      "checksum": "9E92CE1032455A9CC419FE71E908B27AE477799371B45A0844EEDB02279922A4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-darwin-x64.tar.gz",
+      "checksum": "C5497DD17C8875B53712EDAF99052F961013CEDC203964583FC0CFC0AAF93581",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-linux-arm64.tar.gz",
+      "checksum": "73CD297378572E0BC9DFC187C5EC8CCA8D43AEE6A596C10EBEA1ED5F9EC682B6",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-linux-x64.tar.gz",
+      "checksum": "259E5A8BF2E15ECECE65BD2A47153262EDA71C0B2C9700D5E703CE4951572784",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-win-x64.zip",
+      "checksum": "56E5AACDEEE7168871721B75819CCACF2367DE8761B78EACEACDECD41E04CA03",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.285.0/registry.yaml",
+      "checksum": "B8B428B3BEA61EAA58C01B565238C0710967CF3A2F34AA3984EB26154DAC3FEE9148B276536DDD3B45F1A33A6F706F9AF9DA98ECF4340A3F69F008FB5C8E85BC",
+      "algorithm": "sha512"
+    }
+  ]
+}
