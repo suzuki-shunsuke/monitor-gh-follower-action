@@ -1,0 +1,17 @@
+---
+name: Watch Followers
+on:
+  workflow_dispatch: {}
+  # schedule:
+  #   - cron: '/5 0 * * *'
+jobs:
+  watch-follower:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+    steps:
+      - uses: suzuki-shunsuke/monitor-gh-follower-action@latest
+        with:
+          issue_number: 1
