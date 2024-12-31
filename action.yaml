@@ -28,7 +28,7 @@ runs:
         aqua_version: v2.41.0
         skip_install_aqua: "true"
         enable_aqua_install: "false"
-    - run: aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras --version
+    - run: aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras version
       shell: bash
     # Pull the last result from GitHub Container Registry using oras
     - shell: bash
