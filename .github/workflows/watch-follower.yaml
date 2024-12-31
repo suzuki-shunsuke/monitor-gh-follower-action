@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-      contents: write
+      packages: write
     steps:
       - uses: suzuki-shunsuke/monitor-gh-follower-action@f482faa5a6803c7bafa7dcac86201e8b966112aa # v0.1.0-2
         with:
