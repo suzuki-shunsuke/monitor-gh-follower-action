@@ -12,6 +12,6 @@ jobs:
       issues: write
       contents: write
     steps:
-      - uses: suzuki-shunsuke/monitor-gh-follower-action@latest
+      - uses: suzuki-shunsuke/monitor-gh-follower-action@7b73d26bc90deb4b26597b5344eba9f738c80e6f # v0.1.0-0
         with:
           issue_number: 1
