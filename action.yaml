@@ -28,14 +28,14 @@ runs:
         aqua_version: v2.41.0
         skip_install_aqua: "true"
         enable_aqua_install: "false"
-    - run: aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras --version
+    - run: aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras --version
       shell: bash
     # Pull the last result from GitHub Container Registry using oras
     - shell: bash
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
-        aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras pull ghcr.io/$GITHUB_REPOSITORY/followers.json:latest
+        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras pull ghcr.io/$GITHUB_REPOSITORY/followers.json:latest
     # List followers by GraphQL API
     # Compare
     # Post a comment to an issue if followers are changed
@@ -51,4 +51,4 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
-        aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras push ghcr.io/$GITHUB_REPOSITORY/followers.json:latest latest-followers.json
+        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras push ghcr.io/$GITHUB_REPOSITORY/followers.json:latest latest-followers.json
