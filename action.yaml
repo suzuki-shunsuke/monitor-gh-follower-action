@@ -47,6 +47,10 @@ runs:
       run: |
         node dist/index.js
     # Push the last result to GitHub Container Registry using oras
+    - run: echo "$GITHUB_TOKEN" | oras login -u octokit --password-stdin ghcr.io
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{github.token}}
     - shell: bash
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
