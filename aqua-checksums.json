@@ -1,0 +1,34 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_darwin_amd64.tar.gz",
+      "checksum": "E953C3C5580A317BA30871EE77F39A37E5BCB030EDF01C5E9A83EBDDCEC7CF8A",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_darwin_arm64.tar.gz",
+      "checksum": "FCAC22ADAF1CFE7854738859D0F4705D1CD75A23EDAEF5EE2E9ABA66CFFF2315",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_linux_amd64.tar.gz",
+      "checksum": "BFF970346470E5EF888E9F2C0BF7F8EE47283F5A45207D6E7A037DA1FB0EAE0D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_linux_arm64.tar.gz",
+      "checksum": "EDD7195CBB8BA56C29EDE413EEFA10C8026201D63326017CD315841B4063AA56",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/oras-project/oras/v1.2.2/oras_1.2.2_windows_amd64.zip",
+      "checksum": "25110D69D220BF55469A14C243F759305737DAC6672FB47B4AF4E43B000F55F5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.287.0/registry.yaml",
+      "checksum": "D3BB74BCC35C3ECB214C94E15B8F076DD79C560418A46376F903CB6665A45BE7",
+      "algorithm": "sha256"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.coverage
+.envrc
+dist
+node_modules
+followers.json
+latest-followers.json

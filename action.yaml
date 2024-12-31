@@ -1,0 +1,54 @@
+name: Monitor GitHub Followers
+description: Monitor GitHub Followers
+inputs:
+  issue_number:
+    description: |
+      GitHub Issue Number to notify
+    required: true
+  login:
+    description: |
+      GitHub user login. By default, it's the current repository's owner.
+    required: false
+  notify_decrease:
+    description: |
+      Notify if followers are decreased
+    required: false
+    default: "true"
+  github_token:
+    description: |
+      GitHub Access Token.
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: composite
+  steps:
+    # Install oras
+    - uses: aquaproj/aqua-installer@v3.0.1
+      with:
+        aqua_version: v2.41.0
+        skip_install_aqua: "true"
+        enable_aqua_install: "false"
+    - run: aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras --version 
+      shell: bash
+    # Pull the last result from GitHub Container Registry using oras
+    - shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+      run: |
+        aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras pull ghcr.io/$GITHUB_REPOSITORY/followers.json:latest
+    # List followers by GraphQL API
+    # Compare
+    # Post a comment to an issue if followers are changed
+    - shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+        ISSUE_NUMBER: ${{ inputs.issue_number }}
+        LOGIN: ${{ inputs.login }}
+      run: |
+        node dist/index.js
+    # Push the last result to GitHub Container Registry using oras
+    - shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+      run: |
+        aqua -c "$GITHUB_ACTION_PATH/aqua.yaml" exec -- oras push ghcr.io/$GITHUB_REPOSITORY/followers.json:latest latest-followers.json
