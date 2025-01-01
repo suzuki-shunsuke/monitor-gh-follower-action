@@ -30,7 +30,10 @@ runs:
         enable_aqua_install: "false"
     - run: aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras version
       shell: bash
-    - run: echo "$GITHUB_TOKEN" | oras login -u octokit --password-stdin ghcr.io
+    - run: |
+        echo "$GITHUB_TOKEN" |
+          aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
+            oras login -u octokit --password-stdin ghcr.io
       shell: bash
       env:
         GITHUB_TOKEN: ${{github.token}}
@@ -39,7 +42,8 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
-        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras pull ghcr.io/$GITHUB_REPOSITORY/followers.json:latest
+        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
+          oras pull "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest"
     # List followers by GraphQL API
     # Compare
     # Post a comment to an issue if followers are changed
@@ -55,4 +59,6 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
-        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras push ghcr.io/$GITHUB_REPOSITORY/followers.json:latest latest-followers.json
+        mv latest-followers.json followers.json
+        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
+          oras push "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest" followers.json
