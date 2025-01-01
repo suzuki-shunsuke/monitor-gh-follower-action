@@ -12,6 +12,6 @@ jobs:
       issues: write
       packages: write
     steps:
-      - uses: suzuki-shunsuke/monitor-gh-follower-action@76e6aee80e1515b5bf78048fcbd173444d5b3529 # v0.1.0-4
+      - uses: suzuki-shunsuke/monitor-gh-follower-action@322f4b4fca1d7cdcfec623bc3ae8c08393d00f49 # v0.1.0-5
         with:
           issue_number: 1
