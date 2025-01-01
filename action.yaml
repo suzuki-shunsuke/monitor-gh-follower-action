@@ -59,5 +59,6 @@ runs:
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
+        mv latest-followers.json followers.json
         aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
-          oras push "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest" latest-followers.json
+          oras push "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest" followers.json

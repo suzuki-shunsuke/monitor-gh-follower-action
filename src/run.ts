@@ -69,15 +69,15 @@ export const main = async (inputs: Inputs): Promise<any> => {
       oldFollowers: oldFollowers,
     }),
   );
-  let body = "";
+  let body = "Total followers: " + currentFollowers.size + "\n\n";
   if (newFollowers.length > 0) {
-    body += `## New followers (${newFollowers.length})\n\n`;
+    body += `## :smile: New followers (${newFollowers.length})\n\n`;
     for (const follower of newFollowers) {
       body += followerToString(follower) + "\n";
     }
   }
   if (oldFollowers.length > 0) {
-    body += `## Left followers (${oldFollowers.length})\n\n`;
+    body += `## :cry: Past followers (${oldFollowers.length})\n\n`;
     for (const follower of oldFollowers) {
       body += followerToString(follower) + "\n";
     }
