@@ -18,6 +18,13 @@ You need to allow GitHub Access token's owner to access the package.
 
 [Oras CLI](https://oras.land/docs/category/oras-commands) is used.
 
+> [!TIP]
+> You can install Oras CLI using [aqua](https://aquaproj.github.io).
+>
+> ```sh
+> aqua g -i oras-project/oras
+> ```
+
 1. Push a dummy followers.json
 
 https://oras.land/docs/commands/oras_push
