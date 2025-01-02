@@ -47,7 +47,9 @@ export const main = async (inputs: Inputs): Promise<void> => {
   }
   if (inputs.pullResult === "failure") {
   }
-  const prevFollowers = convArrayToMap(readPreviousFollowers(inputs.pullResult === "success"));
+  const prevFollowers = convArrayToMap(
+    readPreviousFollowers(inputs.pullResult === "success"),
+  );
   // List followers by GraphQL API
   const currentFollowers = convArrayToMap(
     await getFollowers(inputs.login, inputs.token),
