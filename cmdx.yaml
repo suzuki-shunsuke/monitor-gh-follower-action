@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/suzuki-shunsuke/cmdx/v1.7.7/json-schema/cmdx.json
 # cmdx - task runner
 # https://github.com/suzuki-shunsuke/cmdx
 tasks:
@@ -52,3 +53,15 @@ tasks:
     description: Run pinact
     usage: Run pinact
     script: pinact run
+  - name: push
+    description: Push followers.json
+    usage: Push followers.json
+    script: oras push "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest" followers.json
+    environment:
+      GITHUB_REPOSITORY: suzuki-shunsuke/monitor-gh-follower-action
+  - name: pull
+    description: Pull followers.json
+    usage: Pull followers.json
+    script: oras pull "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest"
+    environment:
+      GITHUB_REPOSITORY: suzuki-shunsuke/monitor-gh-follower-action
