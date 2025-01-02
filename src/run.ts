@@ -15,13 +15,24 @@ export type Inputs = {
   owner: string;
   repo: string;
   issueNumber: number;
+  pullResult: string;
 };
 
 const followerToString = (follower: Follower): string => {
   return `<img width="32" alt="image" src="${follower.avatorUrl}"> [${follower.login}](https://github.com/${follower.login})`;
 };
 
-export const main = async (inputs: Inputs): Promise<any> => {
+const readPreviousFollowers = (exists: boolean): Follower[] => {
+  if (!exists) {
+    return [];
+  }
+  return JSON.parse(fs.readFileSync("followers.json", "utf8")) as Follower[];
+};
+
+export const main = async (inputs: Inputs): Promise<void> => {
+  if (inputs.pullResult !== "success" && inputs.pullResult !== "failure") {
+    throw new Error("RESULT must be either 'success' or 'failure'");
+  }
   if (inputs.token === "") {
     throw new Error("GITHUB_TOKEN is required");
   }
@@ -34,9 +45,9 @@ export const main = async (inputs: Inputs): Promise<any> => {
   if (inputs.repo === "") {
     throw new Error("repo is required");
   }
-  const prevFollowers = convArrayToMap(
-    JSON.parse(fs.readFileSync("followers.json", "utf8")) as Follower[],
-  );
+  if (inputs.pullResult === "failure") {
+  }
+  const prevFollowers = convArrayToMap(readPreviousFollowers(inputs.pullResult === "success"));
   // List followers by GraphQL API
   const currentFollowers = convArrayToMap(
     await getFollowers(inputs.login, inputs.token),
@@ -46,6 +57,12 @@ export const main = async (inputs: Inputs): Promise<any> => {
     "latest-followers.json",
     JSON.stringify([...currentFollowers.values()]),
   );
+
+  if (inputs.pullResult === "failure") {
+    core.info("pulling followers.json failed, so skip comparing followers");
+    return;
+  }
+
   // Compare
   const oldFollowers: Follower[] = [];
   const newFollowers: Follower[] = [];

@@ -39,11 +39,18 @@ runs:
         GITHUB_TOKEN: ${{github.token}}
     # Pull the last result from GitHub Container Registry using oras
     - shell: bash
+      id: pull
       env:
         GITHUB_TOKEN: ${{ inputs.github_token }}
       run: |
-        aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
-          oras pull "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest"
+        result=success
+        if ! aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
+          oras pull "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest"; then
+          result=failure
+          echo "::warning:: Pulling followers.json failed" >&2
+        fi
+        echo "result=$result" >> "$GITHUB_OUTPUT"
+
     # List followers by GraphQL API
     # Compare
     # Post a comment to an issue if followers are changed
@@ -52,6 +59,7 @@ runs:
         GITHUB_TOKEN: ${{ inputs.github_token }}
         ISSUE_NUMBER: ${{ inputs.issue_number }}
         LOGIN: ${{ inputs.login }}
+        RESULT: ${{ steps.pull.outputs.result }}
       run: |
         node "${GITHUB_ACTION_PATH}/dist/index.js"
     # Push the last result to GitHub Container Registry using oras

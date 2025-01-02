@@ -12,6 +12,7 @@ try {
     issueNumber: parseInt(issueNumber, 10),
     owner: process.env.GITHUB_REPOSITORY_OWNER || "",
     repo: (process.env.GITHUB_REPOSITORY || "").split("/")[1],
+    pullResult: process.env.RESULT || "",
   });
 } catch (error) {
   core.setFailed(
