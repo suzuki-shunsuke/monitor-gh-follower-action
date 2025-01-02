@@ -1,9 +1,11 @@
 # monitor-gh-follower-action
 
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/suzuki-shunsuke/monitor-gh-follower-action/main/LICENSE) | [Example Workflow](https://github.com/suzuki-shunsuke/monitor-gh-follower-action/blob/main/.github/workflows/watch-follower.yaml) | [action.yaml](action.yaml)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/suzuki-shunsuke/monitor-gh-follower-action/main/LICENSE) | [Example Notification](https://github.com/suzuki-shunsuke/monitor-gh-follower-action/issues/1) | [Example Workflow](https://github.com/suzuki-shunsuke/monitor-gh-follower-action/blob/main/.github/workflows/watch-follower.yaml) | [action.yaml](action.yaml)
 
 GitHub Action to monitor changes of a specific user's GitHub Followers.
 By running this action periodically via GitHub Actions' schedule event, you can detect changes of GitHub Followers and post them to a specific GitHub Issue.
+
+e.g. [#1](https://github.com/suzuki-shunsuke/monitor-gh-follower-action/issues/1)
 
 <img width="424" alt="image" src="https://github.com/user-attachments/assets/b01b31f8-e342-4658-aa53-c2c3c3b9f538" />
 
