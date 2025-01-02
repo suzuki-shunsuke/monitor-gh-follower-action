@@ -15,6 +15,7 @@ export type Inputs = {
   owner: string;
   repo: string;
   issueNumber: number;
+  notifyDecrease: string;
 };
 
 const followerToString = (follower: Follower): string => {
@@ -24,6 +25,9 @@ const followerToString = (follower: Follower): string => {
 export const main = async (inputs: Inputs): Promise<any> => {
   if (inputs.token === "") {
     throw new Error("GITHUB_TOKEN is required");
+  }
+  if (inputs.notifyDecrease !== "true" && inputs.notifyDecrease !== "false") {
+    throw new Error("notify_decrease must be either true or false");
   }
   if (inputs.login === "") {
     throw new Error("login is required");
@@ -63,6 +67,11 @@ export const main = async (inputs: Inputs): Promise<any> => {
     core.info("No followers are changed");
     return;
   }
+  const notifyDecrease = inputs.notifyDecrease === "true";
+  if (!notifyDecrease && newFollowers.length === 0) {
+    core.info("No followers are changed");
+    return;
+  }
   core.info(
     JSON.stringify({
       newFollowers: newFollowers,
@@ -75,8 +84,9 @@ export const main = async (inputs: Inputs): Promise<any> => {
     for (const follower of newFollowers) {
       body += followerToString(follower) + "\n";
     }
+    body += "\n";
   }
-  if (oldFollowers.length > 0) {
+  if (notifyDecrease && oldFollowers.length > 0) {
     body += `## :cry: Past followers (${oldFollowers.length})\n\n`;
     for (const follower of oldFollowers) {
       body += followerToString(follower) + "\n";
