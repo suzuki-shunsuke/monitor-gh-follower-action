@@ -11,12 +11,14 @@ inputs:
     required: false
   notify_decrease:
     description: |
-      Notify if followers are decreased
+      The value must be "true" or "false".
+      If "true", it notifies if followers are decreased.
     required: false
     default: "true"
   github_token:
     description: |
       GitHub Access Token.
+      issues:write and packages:write permissions are required.
     required: false
     default: ${{ github.token }}
 runs:
@@ -52,6 +54,7 @@ runs:
         GITHUB_TOKEN: ${{ inputs.github_token }}
         ISSUE_NUMBER: ${{ inputs.issue_number }}
         LOGIN: ${{ inputs.login }}
+        NOTIFY_DECREASE: ${{ inputs.notify_decrease }}
       run: |
         node "${GITHUB_ACTION_PATH}/dist/index.js"
     # Push the last result to GitHub Container Registry using oras
