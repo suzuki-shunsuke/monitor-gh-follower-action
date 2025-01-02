@@ -53,7 +53,7 @@ runs:
         ISSUE_NUMBER: ${{ inputs.issue_number }}
         LOGIN: ${{ inputs.login }}
       run: |
-        node dist/index.js
+        node "${GITHUB_ACTION_PATH}/dist/index.js"
     # Push the last result to GitHub Container Registry using oras
     - shell: bash
       env:
