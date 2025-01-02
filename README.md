@@ -16,7 +16,20 @@ Please see [action.yaml](action.yaml).
 This action stores the result of the latest followers into GitHub Container Registry.
 You need to allow GitHub Access token's owner to access the package.
 
-<img width="1049" alt="image" src="https://github.com/user-attachments/assets/2f3e94f9-c474-43a3-a376-e2ca62e592db" />
+[Oras CLI](https://oras.land/docs/category/oras-commands) is used.
+
+1. Push a dummy followers.json
+
+https://oras.land/docs/commands/oras_push
+
+```sh
+echo '{}' > followers.json
+oras push "ghcr.io/$GITHUB_REPOSITORY/followers.json:latest" followers.json
+```
+
+2. [Grant the permission](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility)
+
+If you use [GITHUB_TOKEN secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication), you need to grant the repository where this action is run to the permission.
 
 ## Available versions
 
