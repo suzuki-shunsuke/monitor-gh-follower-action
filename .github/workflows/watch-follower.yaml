@@ -2,8 +2,8 @@
 name: Watch Followers
 on:
   workflow_dispatch: {}
-  # schedule:
-  #   - cron: '/5 0 * * *'
+  schedule:
+    - cron: "*/5 0 * * *"
 jobs:
   watch-follower:
     timeout-minutes: 10
@@ -12,6 +12,6 @@ jobs:
       issues: write
       packages: write
     steps:
-      - uses: suzuki-shunsuke/monitor-gh-follower-action@76e6aee80e1515b5bf78048fcbd173444d5b3529 # v0.1.0-4
+      - uses: suzuki-shunsuke/monitor-gh-follower-action@latest
         with:
           issue_number: 1
