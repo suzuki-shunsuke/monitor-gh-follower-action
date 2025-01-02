@@ -78,7 +78,7 @@ export const main = async (inputs: Inputs): Promise<any> => {
       oldFollowers: oldFollowers,
     }),
   );
-  let body = "Total followers: " + currentFollowers.size + "\n\n";
+  let body = `[workflow run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}) Total followers: ${currentFollowers.size}` + "\n\n";
   if (newFollowers.length > 0) {
     body += `## :smile: New followers (${newFollowers.length})\n\n`;
     for (const follower of newFollowers) {
