@@ -3,7 +3,7 @@ name: Watch Followers
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '/5 0 * * *'
+    - cron: "/5 0 * * *"
 jobs:
   watch-follower:
     timeout-minutes: 10
