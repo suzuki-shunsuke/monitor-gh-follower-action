@@ -86,33 +86,33 @@
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_darwin_amd64.tar.gz",
-      "checksum": "A57E9862E6B4F6B8398FF134F0E07C9F0047142FB9EA8E7CDC4FEE05D24E89F4",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_darwin_amd64.tar.gz",
+      "checksum": "28E5DE5A05FC558474F638323D736D822FFF183D2D492F0AECB2B73CC44584F5",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_darwin_arm64.tar.gz",
-      "checksum": "9A7C9CB2B627BB137EF68742EEAD2DD5B78F3DDC44876E84C37D323BA28B4710",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_darwin_arm64.tar.gz",
+      "checksum": "2693315B9093AEACB4EBD91A993FEA54FC215057BF0DA2659056B4BC033873DB",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_linux_amd64.tar.gz",
-      "checksum": "5D1A70D9DE15FEE5371E6F9E20CC29B284E814D6EE1B882F9749E91CAF716EBA",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_linux_amd64.tar.gz",
+      "checksum": "023070A287CD8CCCD71515FEDC843F1985BF96C436B7EFFAECCE67290E7E0757",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_linux_arm64.tar.gz",
-      "checksum": "5D8B6B5BF0BC7BBE69A5EA779329EB7825C768248DD0DA979D98E39D924ABC7F",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_linux_arm64.tar.gz",
+      "checksum": "401942F9C24ED71E4FE71B76C7D638F66D8633575C4016EFD2977CE7C28317D0",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_windows_amd64.zip",
-      "checksum": "48D327E7744EF863CD85DF1CC29BE810BD7A1D03026132AB34E4DDBFE839F685",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_windows_amd64.zip",
+      "checksum": "7F12F1801BCA3D480D67AAF7774F4C2A6359A3CA8EEBE382C95C10C9704AA731",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/rhysd/actionlint/v1.7.6/actionlint_1.7.6_windows_arm64.zip",
-      "checksum": "ABF8F1910C0BC7821121AA820E071ABFF19A34829E621382F11B1DDE934944EE",
+      "id": "github_release/github.com/rhysd/actionlint/v1.7.7/actionlint_1.7.7_windows_arm64.zip",
+      "checksum": "76E9514CFAC18E5677AA04F3A89873C981F16A2F2353BB97372A86CD09B1F5A8",
       "algorithm": "sha256"
     },
     {
@@ -146,63 +146,63 @@
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_darwin_amd64.tar.gz",
-      "checksum": "94DC94403071C90E13F2F6EDD45A5EF39AB47FFCD9F1D048AC17FE81E35496F9",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_darwin_amd64.tar.gz",
+      "checksum": "4E67C80C0F0C9C18DE278C2177F599C244981BBBC51DA19C1147A3A6B331592F",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_darwin_arm64.tar.gz",
-      "checksum": "B007DFFDD0ADD3AD93D886EA82CD5138F636ABAB13C04CE925687718035C4232",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_darwin_arm64.tar.gz",
+      "checksum": "9A96719A32BFBC67590F30CF8BFED5137B43009FD6661FAB97A38455FD9569DF",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_linux_amd64.tar.gz",
-      "checksum": "3FAFC8DAC6FDE1B74A5345764A9B19A94FDB2D374D3A3B076CEE28B86449AE79",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_linux_amd64.tar.gz",
+      "checksum": "C8FEB28C13543341AB0578FBC92C168F75E5F575A4F63790896B242CDF5959D0",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_linux_arm64.tar.gz",
-      "checksum": "4342034046EB59B98EB12179E8F7E85C58E29556DA08D0E0D3E50AA137FAE252",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_linux_arm64.tar.gz",
+      "checksum": "ED3F3CEA8E29332051E546B2438906B2A3CE0FFEEA09EB0C35F3841EC00C2BFB",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_windows_amd64.zip",
-      "checksum": "A84F21CC12BBA059B80B25E7FC3499D2581610B639B7A08EAFFB60F2DAF924F1",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_windows_amd64.zip",
+      "checksum": "9CBA62741CB804583545D6E26A65CB788051E87BF8E630FB7F2BF4F803B850D0",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.1/ghalint_1.2.1_windows_arm64.zip",
-      "checksum": "52D587A55DE5F50633D1ED7D8C8911E9BAFAC2647FBF4A1AF613240721438042",
+      "id": "github_release/github.com/suzuki-shunsuke/ghalint/v1.2.3/ghalint_1.2.3_windows_arm64.zip",
+      "checksum": "221A0A427236DE9F6CF893B9F6F1769B1174A6F06D712105B67A54B159B6E590",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_darwin_amd64.tar.gz",
-      "checksum": "862FB62A098B6B98FC859754737548BE3E18B060A6B8BF786B36B9B49486F7A2",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_darwin_amd64.tar.gz",
+      "checksum": "3BC3F2A25F20C26ACB2968807D8F9F814012B76A594ACFE12CC733C7532639BA",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_darwin_arm64.tar.gz",
-      "checksum": "B2827D65DA6ADEE26D8FA1B81514C071F3CF2563BFF67A6AF3A122A194A28C33",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_darwin_arm64.tar.gz",
+      "checksum": "CAB45EC46D0AA15348517CD90E5482F75FD3073E7843E4D8282A9230AC4B0699",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_linux_amd64.tar.gz",
-      "checksum": "511F3E42E1BD94A3AAC5EF4D845F4A6F5008C32F0C68C26EAD01BB69DCA4ED2D",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_linux_amd64.tar.gz",
+      "checksum": "A9FE63BD709BE8356709E20AF770C72BD402BEBB619117517C3CDA4D99BB0A64",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_linux_arm64.tar.gz",
-      "checksum": "2B90DD94C22790F99E153D2931B9929137BF9DD5268DFD742D14C30AE016940A",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_linux_arm64.tar.gz",
+      "checksum": "DA475AF7188C333726B65A4505FAD04EF1B9021A3675FB76732B0F1D02D632A5",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_windows_amd64.zip",
-      "checksum": "8752F13F5CEA3E2245EA88F428A64A9C813AB1D6AEBBA1A39F3C421E490CCFCE",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_windows_amd64.zip",
+      "checksum": "C0BE99A06321382E55900137DEEB510D968E17191F1C90EEE4A54A1094ABC993",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.1.2/pinact_windows_arm64.zip",
-      "checksum": "2C93EC1BF96D9F5C0CC20AE00D51526EA0B4D6FCC46F433DBB64894CD6024A9F",
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v1.2.1/pinact_windows_arm64.zip",
+      "checksum": "EEF11F25199E6A3C446D2776DA9C9FFF9715CD6D3993D64E6841EE34A42D16E0",
       "algorithm": "sha256"
     },
     {
@@ -229,126 +229,6 @@
       "id": "http/nodejs.org/dist/v20.18.1/node-v20.18.1-win-x64.zip",
       "checksum": "56E5AACDEEE7168871721B75819CCACF2367DE8761B78EACEACDECD41E04CA03",
       "algorithm": "sha256"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.292.0/registry.yaml",
-      "checksum": "E3ECBD6E2682453D45025792ED89BEFE0FC63366301BF0C291B61CD9600B639BB61362C4AE63549209665DA8B8E762E89DEF94397E74AFA7BE897B4758BA2F03",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.293.0/registry.yaml",
-      "checksum": "26EF3558FE09977A4DE98A4F536FCE5FFC0FE5449C641D43B333FAD1D75D4122427AAB2A1DE8AFAFA328BABEAB521C54195CADDB41FDD244D8E08C426D0FAF9C",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.294.0/registry.yaml",
-      "checksum": "B8CBA40C5C8659CECDDBA27F1134CC73B863808E4EB4D22132A51EF4E1BEED80C40066D8241208F751F03BE546876DCF96A5CD6A7F10A61C9FE240C9DF736DA2",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.295.0/registry.yaml",
-      "checksum": "1C0CA8D957B6E6758CE158AB14C6A0A88DDF734D8F454B79118A1E007EA5354F71C0E172A7E0050526727720354DF628631CD71EB9526AB8EAE2C25178AB620A",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.295.1/registry.yaml",
-      "checksum": "AE928C99FD276B54E4CE567A846FD326CF71B5E22E41C1A6863D3CA4BDB91683F04DD7212C0589B7B8E7AAD3346FC6C70E11ED66776269F6E1239F53A76F096D",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.296.0/registry.yaml",
-      "checksum": "A5EE510BFF6686A7991A01176551D2ACC61B3089C2E2B7D4366AC7C4DD7C487AADD11FEE65714C29A332B166C992E3B310C0DE93F16048B9A327949AF5319DEA",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.297.0/registry.yaml",
-      "checksum": "C4F51854EEEFC6BE7158EA8BA140702D871B01999692C708DBA05AD4A53E0D6B041CAA620DC8252A522B2F296A4BCC481350095C6845DA5B621A1B9219C6B7DE",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.298.0/registry.yaml",
-      "checksum": "B051BC84D0019915F92A2DB856707A827EAC9E1C921D7BAA68A534485CAAEA004D86462BFDE6266A6BBE85CB35E7D70BD5284D60F635FEE5F862714C2E7BAF76",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.299.0/registry.yaml",
-      "checksum": "6F13D39F6A97B8870B8B182B0C29B9B0BC006D5B80E8B281C3388D65BCB09E799BBC67081CC51EF7FA60FD56CF31F78DFECB6CD2CAAF2B9F90BB71C5FBDD651A",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.300.0/registry.yaml",
-      "checksum": "673F7C1CF78BD6E20B145BC5D7085DD315F2F8DA0ABB788C7FC35A36D9F55237847C9F2A54C78ECE795B0F91B1A4975CB9F40881848B6635C9A8FCA63D0275DB",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.300.1/registry.yaml",
-      "checksum": "17C68295340B8D5A5E10200D59EA490B027F8D45713CB973BCD8731F77BF56B86DA5832622842914A1235FE858FCB9BB512095E88F17C9EAA6B3FC8E8241BF52",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.300.2/registry.yaml",
-      "checksum": "3B7046B92736A250F29B32D37A953B9AFD19AAF21F566A144D21705298E3189D353B238083F9FDB1A687A737408C7FEE43E9273A443EFF37131211D474251590",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.301.0/registry.yaml",
-      "checksum": "E721B063278518F4008D3DFD95839F7D49AA53EAE29350C78A398FDAB71F3C3A222E872B951A895E7FA190CDD2BCB6F5DF866CCDBE569D75D23DE6FEE77FF861",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.302.0/registry.yaml",
-      "checksum": "5B8F205C3042503ECDD55DDF065453D489BFBCD50612941896220415295E9CDBA3C4A87B7E5D2B99988C7BD67F290F3775A9249862557800A483DABCCF186B4A",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.302.1/registry.yaml",
-      "checksum": "908B44E94A3583AA2D6F0B17F53E49D01ACD57E4ECDFEDB29EB082D335D9445478426E591AB57D37BAA02A2EF9581A71A3AA66C825CC787323D65A1D89B53072",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.303.0/registry.yaml",
-      "checksum": "A27A66FAAB4178DD37D964AF4895AB17E8A7A2EA02EE7D67A8DF9EA8F5F46B6C01E6DC57A50B1014D0B6995F69D251D144914D29EF433A71CD82D1463C7555D9",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.304.0/registry.yaml",
-      "checksum": "43AE09B373296CCADA23A4EAC11484B7413FAC511EA3A2C90BBF5A71FF5131F53024C3FD7AA29E277F9CF1E016967273EF6A0DB810317AE4861FBEA81F963C78",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.305.0/registry.yaml",
-      "checksum": "763339842FB67C8634C354D39706791CE1FECC4BFADC0D1B495BABD090CF941EA1DFA6B4DBE86C07DD48D9663C666B5AAA752D1346DD7EC2EEFB7AA4571B86AB",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.306.0/registry.yaml",
-      "checksum": "623EB26FBF696412CDAE4EC3EA2E2B31396F596FB41CADDDB41DEA835797371ABF1EA36F9B6634CF55276655327E1310263776910EE2131FFF5F1D157651B8C6",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.306.1/registry.yaml",
-      "checksum": "96AC2CF4C162AE0C7896795DDAC958C0F418E7FB07ED230685CEB6EDC39A4EFA65C92ED02DE23F5D8C5557A83FFADCD07F59F97B38F4A66C9C957EEBB0180703",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.307.0/registry.yaml",
-      "checksum": "69DDE5756A4B70289A67D3007EB2BEB5633E3664C7AEF668109E8C4373F1D692E68763FB7278A57C4C66C5882A63DF8B12898FFC4344F07A6530362A3E6F8039",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.308.0/registry.yaml",
-      "checksum": "B7A90E397A883B9D2595F4D1F1A8C442524353B3E708FB8E28114BE85E0C05A6CBA296C3D433060B549C591F46696B4B5E3A32C7FDD4315F7E631DAECBCE6C5D",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.309.0/registry.yaml",
-      "checksum": "DFD58EBA535CFC94112B730F52BA503D61B784AA8A387527DA0DA9FE8E8D60928C91FBB88666CCC9DB9260F04C3B9E6C89045D0FBE3B2B03CF5335E406FD254B",
-      "algorithm": "sha512"
-    },
-    {
-      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.310.0/registry.yaml",
-      "checksum": "5FD3E9CDDFCDC4D3C0D3CB51D44BD8AD429F5152AAAA5460CBF3DA7AC3A1A24CAD8F3C303321291AEFDC839730B3C61057019116915BDBD29DDCF46E8C860077",
-      "algorithm": "sha512"
     },
     {
       "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.311.0/registry.yaml",
