@@ -18,7 +18,11 @@ jobs:
           GITHUB_TOKEN: ${{github.token}}
       - run: aqua upc -prune
 
-      - run: npm i
+      - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4.3.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
       - run: cmdx fmt
 
       - uses: autofix-ci/action@2891949f3779a1cafafae1523058501de3d4e944 # v1.3.1
