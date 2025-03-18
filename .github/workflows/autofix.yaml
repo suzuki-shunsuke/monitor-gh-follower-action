@@ -17,4 +17,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{github.token}}
       - run: aqua upc -prune
+
+      - run: npm i
+      - run: cmdx fmt
+
       - uses: autofix-ci/action@2891949f3779a1cafafae1523058501de3d4e944 # v1.3.1
