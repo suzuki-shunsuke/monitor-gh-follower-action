@@ -49,10 +49,6 @@ tasks:
     description: Format with prettier
     usage: Format with prettier
     script: npm run fmt
-  - name: pinact
-    description: Run pinact
-    usage: Run pinact
-    script: pinact run
   - name: push
     description: Push followers.json
     usage: Push followers.json
