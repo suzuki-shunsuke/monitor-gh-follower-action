@@ -32,6 +32,8 @@ runs:
         enable_aqua_install: "false"
     - run: aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- oras version
       shell: bash
+      env:
+        GITHUB_TOKEN: ${{github.token}}
     - run: |
         echo "$GITHUB_TOKEN" |
           aqua -c "$GITHUB_ACTION_PATH/aqua/aqua.yaml" exec -- \
