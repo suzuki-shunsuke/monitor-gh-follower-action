@@ -4,7 +4,7 @@
     "fmt": "prettier --write ."
   },
   "dependencies": {
-    "@actions/core": "1.11.1",
+    "@actions/core": "3.0.0",
     "@actions/github": "^6.0.0",
     "@octokit/core": "^7.0.0",
     "@octokit/plugin-paginate-graphql": "^6.0.0"
