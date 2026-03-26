@@ -12,7 +12,7 @@ jobs:
       issues: write
       packages: write
     steps:
-      - uses: suzuki-shunsuke/monitor-gh-follower-action@latest
+      - uses: suzuki-shunsuke/monitor-gh-follower-action@5b6b8e48a4f6e209be4e36b2b9f53d4e3149930a # latest
         with:
           issue_number: 1
       - uses: suzuki-shunsuke/notify-workflow-error-action@e5e8817e62eb122231d162dbc8309c4d05a21b2e # v0.1.0
