@@ -10,9 +10,9 @@
     "@octokit/plugin-paginate-graphql": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "24.12.4",
-    "@vercel/ncc": "0.38.4",
-    "prettier": "3.8.3",
+    "@types/node": "24.13.1",
+    "@vercel/ncc": "0.44.0",
+    "prettier": "3.8.4",
     "typescript": "6.0.3"
   }
 }
