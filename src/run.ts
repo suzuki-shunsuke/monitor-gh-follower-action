@@ -6,7 +6,7 @@ import { paginateGraphQL } from "@octokit/plugin-paginate-graphql";
 
 type Follower = {
   login: string;
-  avatorUrl: string;
+  avatarUrl: string;
 };
 
 export type Inputs = {
@@ -19,7 +19,7 @@ export type Inputs = {
 };
 
 const followerToString = (follower: Follower): string => {
-  return `<img width="32" alt="image" src="${follower.avatorUrl}"> [${follower.login}](https://github.com/${follower.login})`;
+  return `<img width="32" alt="image" src="${follower.avatarUrl}"> [${follower.login}](https://github.com/${follower.login})`;
 };
 
 export const main = async (inputs: Inputs): Promise<any> => {
@@ -104,12 +104,15 @@ export const main = async (inputs: Inputs): Promise<any> => {
   });
 };
 
-const convArrayToMap = (followers: Follower[]): Map<string, Follower> => {
+const convArrayToMap = (
+  followers: (Follower & { avatorUrl?: string })[],
+): Map<string, Follower> => {
   const map = new Map<string, Follower>();
   for (const follower of followers) {
     map.set(follower.login, {
       login: follower.login,
-      avatorUrl: follower.avatorUrl,
+      // followers.json written by old versions uses the misspelled key avatorUrl
+      avatarUrl: follower.avatarUrl ?? follower.avatorUrl ?? "",
     });
   }
   return map;
@@ -148,7 +151,7 @@ const getFollowers = async (
     for (const node of response.user.followers.nodes) {
       followers.push({
         login: node.login,
-        avatorUrl: node.avatarUrl,
+        avatarUrl: node.avatarUrl,
       });
     }
   }
