@@ -31,28 +31,28 @@
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.5/oras_1.3.5_darwin_amd64.tar.gz",
-      "checksum": "0E8A0B4B0BB7179442097152F8B49D7CB22D15F023371A2D30B40914D9BA3AC3",
+      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_darwin_amd64.tar.gz",
+      "checksum": "844E26430AA0AFE2C40FDBDDAFC3B39EF968A6D41955B7380684BD02907FA397",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.5/oras_1.3.5_darwin_arm64.tar.gz",
-      "checksum": "BD164BC9D08E9C5EDB918F76E0CF92ECC61F6A50A4A6709B1CB06CF6721B4610",
+      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_darwin_arm64.tar.gz",
+      "checksum": "E2B25A53234E2471C5FC81936F957FA612065AB559C21834C02D8BFBC2F62B30",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.5/oras_1.3.5_linux_amd64.tar.gz",
-      "checksum": "F48A73EA6D026A862C3919FC773DA9A8C86FC259C2C737D5BAED3B8B9614AD22",
+      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_linux_amd64.tar.gz",
+      "checksum": "66FB0AD7206F3F6FA77ED5B552049D364CCF4B50B1684554F731F76302B52CA0",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.5/oras_1.3.5_linux_arm64.tar.gz",
-      "checksum": "D5D4E5AFD5C0781C93EDA5EA1976E654E1FDEE202C1DDAEAF5F91A8C4FD67D46",
+      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_linux_arm64.tar.gz",
+      "checksum": "B84269E78DFC2D5329A4AAB373DA3200DE95E6C138338CF6C66C10C0A3F248C1",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.5/oras_1.3.5_windows_amd64.zip",
-      "checksum": "3E72BF9F4361625D68DC96A10F485C4BF9973F9F9B170652AB78220A0BC7092C",
+      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_windows_amd64.zip",
+      "checksum": "EC3D19F386D5D2F0892288772D7B242475A05332AAFA64B6773378CA771D76D3",
       "algorithm": "sha256"
     },
     {
