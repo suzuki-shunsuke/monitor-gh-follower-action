@@ -31,28 +31,28 @@
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_darwin_amd64.tar.gz",
-      "checksum": "844E26430AA0AFE2C40FDBDDAFC3B39EF968A6D41955B7380684BD02907FA397",
+      "id": "github_release/github.com/oras-project/oras/v1.4.0/oras_1.4.0_darwin_amd64.tar.gz",
+      "checksum": "17D5C1B435023FE86C3A36BFBF048AC352C61484350C5250CE31131F104A2802",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_darwin_arm64.tar.gz",
-      "checksum": "E2B25A53234E2471C5FC81936F957FA612065AB559C21834C02D8BFBC2F62B30",
+      "id": "github_release/github.com/oras-project/oras/v1.4.0/oras_1.4.0_darwin_arm64.tar.gz",
+      "checksum": "0A7F499BB28793A97BD0939DE8654607E753FF6082FD72697A700868B9CDAB53",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_linux_amd64.tar.gz",
-      "checksum": "66FB0AD7206F3F6FA77ED5B552049D364CCF4B50B1684554F731F76302B52CA0",
+      "id": "github_release/github.com/oras-project/oras/v1.4.0/oras_1.4.0_linux_amd64.tar.gz",
+      "checksum": "D8E1DCE2FD8CE996F1D901845B688EB0CF505A6082897606F053825BB47935D1",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_linux_arm64.tar.gz",
-      "checksum": "B84269E78DFC2D5329A4AAB373DA3200DE95E6C138338CF6C66C10C0A3F248C1",
+      "id": "github_release/github.com/oras-project/oras/v1.4.0/oras_1.4.0_linux_arm64.tar.gz",
+      "checksum": "0791FC200831563E498638D30E8EE8AAC20AD1DA2610760120FE3F770E12A8A4",
       "algorithm": "sha256"
     },
     {
-      "id": "github_release/github.com/oras-project/oras/v1.3.6/oras_1.3.6_windows_amd64.zip",
-      "checksum": "EC3D19F386D5D2F0892288772D7B242475A05332AAFA64B6773378CA771D76D3",
+      "id": "github_release/github.com/oras-project/oras/v1.4.0/oras_1.4.0_windows_amd64.zip",
+      "checksum": "C70D25E3463A161A5AEEDDD9FE5EF882C811DDE8115AB0883C0B87D3F0C50832",
       "algorithm": "sha256"
     },
     {
